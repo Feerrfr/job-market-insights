@@ -1,0 +1,21 @@
+# Archivos de entorno virtual y python
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints
+
+# Variables de entorno y secretos (IMPORTANTE)
+.env
+config/snowflake_creds.json
+config/adzuna_creds.json
+
+# Datos locales (no queremos subir archivos pesados)
+data/*.json
+data/*.csv
+
+# Logs de Airflow
+logs/
+
+# IDEs
+.vscode/
+.idea/
